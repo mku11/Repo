@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mku.salmon",
+    "module": "salmon-fs",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "salmon-fs-1.0.5.jar",
+          "url": "salmon-fs-1.0.5.jar",
+          "size": 77113,
+          "sha512": "8715968ce836e72e6a137b99631a30ed88b7ec963379a49c5353c5158059e3b7a1672ea41a4f8dabebc9818102cc59099a2bd18b256e18f9cbd03d6ee9d342b2",
+          "sha256": "6f6c84ea57aae6a52e918b05f96e7cac7a69ca6807866dc6686a22bafb7af0de",
+          "sha1": "1a04e1dba6ee372d128c2bc8be1ca1fae2bbc375",
+          "md5": "57891e21f985160e90f482b1cce5460a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mku.salmon",
+          "module": "salmon-core",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salmon-fs-1.0.5.jar",
+          "url": "salmon-fs-1.0.5.jar",
+          "size": 77113,
+          "sha512": "8715968ce836e72e6a137b99631a30ed88b7ec963379a49c5353c5158059e3b7a1672ea41a4f8dabebc9818102cc59099a2bd18b256e18f9cbd03d6ee9d342b2",
+          "sha256": "6f6c84ea57aae6a52e918b05f96e7cac7a69ca6807866dc6686a22bafb7af0de",
+          "sha1": "1a04e1dba6ee372d128c2bc8be1ca1fae2bbc375",
+          "md5": "57891e21f985160e90f482b1cce5460a"
+        }
+      ]
+    }
+  ]
+}
