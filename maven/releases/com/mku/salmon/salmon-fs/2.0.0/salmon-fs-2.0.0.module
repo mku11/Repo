@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mku.salmon",
+    "module": "salmon-fs",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "salmon-fs-2.0.0.jar",
+          "url": "salmon-fs-2.0.0.jar",
+          "size": 80271,
+          "sha512": "2e9b58f509d10344402d10f396ed68e620443d7468eab08499acb6a11caa210c3b0f8eeeaccfe86bf41c82fd6c417da2579909bfa53b0a873323361acb6f99f4",
+          "sha256": "df2024d0ee42c6db72f9c766c5eb13602957befb454154d344360812ad7abb03",
+          "sha1": "c2bc9d2911b2fd8d200d68499f3a44cd924e5bb0",
+          "md5": "3611dbe930d89c8c7c627417b4a3aaec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mku.salmon",
+          "module": "salmon-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salmon-fs-2.0.0.jar",
+          "url": "salmon-fs-2.0.0.jar",
+          "size": 80271,
+          "sha512": "2e9b58f509d10344402d10f396ed68e620443d7468eab08499acb6a11caa210c3b0f8eeeaccfe86bf41c82fd6c417da2579909bfa53b0a873323361acb6f99f4",
+          "sha256": "df2024d0ee42c6db72f9c766c5eb13602957befb454154d344360812ad7abb03",
+          "sha1": "c2bc9d2911b2fd8d200d68499f3a44cd924e5bb0",
+          "md5": "3611dbe930d89c8c7c627417b4a3aaec"
+        }
+      ]
+    }
+  ]
+}
