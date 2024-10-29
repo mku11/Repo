@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mku.salmon",
+    "module": "salmon-fs",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "salmon-fs-2.2.0.jar",
+          "url": "salmon-fs-2.2.0.jar",
+          "size": 95949,
+          "sha512": "c072bc882a184eec07273cee0a9b62d85bad1ea4275fb6c36ff2a5a32c96a3c96e2dd892b79e4f0f7c7e4c0b21a253c6a2efa4c95ba08ab26f4fe391209a9fb1",
+          "sha256": "a40dd123eca03581ca013c7fec419cfbdab1929167ce856a528e719a04827705",
+          "sha1": "7953fec46853819eeb126b186bc3c8047ede043a",
+          "md5": "adc879fa8ae650c730b3892170a7c8e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mku.salmon",
+          "module": "salmon-core",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.13"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpmime",
+          "version": {
+            "requires": "4.5.13"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20240303"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salmon-fs-2.2.0.jar",
+          "url": "salmon-fs-2.2.0.jar",
+          "size": 95949,
+          "sha512": "c072bc882a184eec07273cee0a9b62d85bad1ea4275fb6c36ff2a5a32c96a3c96e2dd892b79e4f0f7c7e4c0b21a253c6a2efa4c95ba08ab26f4fe391209a9fb1",
+          "sha256": "a40dd123eca03581ca013c7fec419cfbdab1929167ce856a528e719a04827705",
+          "sha1": "7953fec46853819eeb126b186bc3c8047ede043a",
+          "md5": "adc879fa8ae650c730b3892170a7c8e7"
+        }
+      ]
+    }
+  ]
+}
