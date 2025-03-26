@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mku.salmon",
+    "module": "salmon-fs",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "salmon-fs-3.0.0.jar",
+          "url": "salmon-fs-3.0.0.jar",
+          "size": 111592,
+          "sha512": "7fc7db316c7d84144fa269537af0b8d42061237176d8ab4a1e91574c74ca712b38d842a6a8da44464f42b76d445b0784a3f0e55804a03c8b579974ebcb42bf32",
+          "sha256": "5555c7e66b0c900823fb18b5dc82d8be3467acd7849b3b2dfdb8f164cd8544f7",
+          "sha1": "5653700842060d4b0d63da3679ce6e7067ba265a",
+          "md5": "2af0627fc3a794d2012dbf3a168cff04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mku.salmon",
+          "module": "salmon-core",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.13"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpmime",
+          "version": {
+            "requires": "4.5.13"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20240303"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salmon-fs-3.0.0.jar",
+          "url": "salmon-fs-3.0.0.jar",
+          "size": 111592,
+          "sha512": "7fc7db316c7d84144fa269537af0b8d42061237176d8ab4a1e91574c74ca712b38d842a6a8da44464f42b76d445b0784a3f0e55804a03c8b579974ebcb42bf32",
+          "sha256": "5555c7e66b0c900823fb18b5dc82d8be3467acd7849b3b2dfdb8f164cd8544f7",
+          "sha1": "5653700842060d4b0d63da3679ce6e7067ba265a",
+          "md5": "2af0627fc3a794d2012dbf3a168cff04"
+        }
+      ]
+    }
+  ]
+}

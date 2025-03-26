@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mku.salmon",
+    "module": "salmon-core",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "salmon-core-3.0.0.jar",
+          "url": "salmon-core-3.0.0.jar",
+          "size": 60209,
+          "sha512": "f5083618eb1931e1496872493d9faab8f2577d7425eb34d348f93a9ba99818ca582a081771a4e5a277eb07c07d45fb22bc0555f659b64a28a169b0cfbb73a7ab",
+          "sha256": "203c185cdc2c958dbb147b8ff7048bb510f6a72d847d646d1097146c090b446c",
+          "sha1": "4a3f7264cc8ca7769ff9c51fe712234a9d7798ac",
+          "md5": "76d26424b9f69831c6e1a90d675104a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "salmon-core-3.0.0.jar",
+          "url": "salmon-core-3.0.0.jar",
+          "size": 60209,
+          "sha512": "f5083618eb1931e1496872493d9faab8f2577d7425eb34d348f93a9ba99818ca582a081771a4e5a277eb07c07d45fb22bc0555f659b64a28a169b0cfbb73a7ab",
+          "sha256": "203c185cdc2c958dbb147b8ff7048bb510f6a72d847d646d1097146c090b446c",
+          "sha1": "4a3f7264cc8ca7769ff9c51fe712234a9d7798ac",
+          "md5": "76d26424b9f69831c6e1a90d675104a9"
+        }
+      ]
+    }
+  ]
+}
