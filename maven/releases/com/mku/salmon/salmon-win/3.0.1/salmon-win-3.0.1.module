@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mku.salmon",
+    "module": "salmon-win",
+    "version": "3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "salmon-win-3.0.1.jar",
+          "url": "salmon-win-3.0.1.jar",
+          "size": 13994,
+          "sha512": "450d87704c2f65cd713776707d1ecfff6a23029eca16e822184230112524c6232f3bded7be6d696f44d056ddf1f062088d6233757b28eddd57d4653aa0adb6d2",
+          "sha256": "6c95544bea27f60c19e3a0a1b4743d81c9e3184c926f7f19105f67d38c9bc4b3",
+          "sha1": "c9a0530d6c72b8ccbbca61391f6988fe7b1dcfe9",
+          "md5": "a38a81f5805c9cfd9998770d2791205e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "com.mku.salmon",
+          "module": "salmon-core",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.mku.salmon",
+          "module": "salmon-fs",
+          "version": {
+            "requires": "3.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salmon-win-3.0.1.jar",
+          "url": "salmon-win-3.0.1.jar",
+          "size": 13994,
+          "sha512": "450d87704c2f65cd713776707d1ecfff6a23029eca16e822184230112524c6232f3bded7be6d696f44d056ddf1f062088d6233757b28eddd57d4653aa0adb6d2",
+          "sha256": "6c95544bea27f60c19e3a0a1b4743d81c9e3184c926f7f19105f67d38c9bc4b3",
+          "sha1": "c9a0530d6c72b8ccbbca61391f6988fe7b1dcfe9",
+          "md5": "a38a81f5805c9cfd9998770d2791205e"
+        }
+      ]
+    }
+  ]
+}
